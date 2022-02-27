@@ -1,0 +1,116 @@
+body {
+    background-color: lightblue;
+    padding: 0px;
+    margin: 0px;
+    
+
+
+}
+h3{
+    font-family: Andale monospace;
+
+}
+@media (min-width: 576px){
+    .principal{
+        background-color: lightblue;
+        height: auto;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 70%;
+    }
+    
+
+}
+
+
+
+    
+
+.lado_esquerdo{
+    background-color: #355586;
+
+
+}
+
+
+
+
+.foto_perfil{
+
+    border-radius: 50%;border: 3px solid rgb(245, 10, 127);
+
+}
+
+.titulo_contato{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.material-icons{
+    color: white;
+}
+
+.bloco_informacao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-bottom: 12px;
+    width: 100%;
+    align-items: center;
+   
+    
+}
+
+.descricao{
+    font-size: 20px;
+    color: white;
+    font-weight: 10px;
+    font-family: andale monospace;
+    margin-left: 10px;
+    align-items: center;
+    
+}
+
+.titulo_perfil{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+.material-icons{
+    color: rgb(245, 10, 127);
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration: uppercase;
+        transition: 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+}
+h1:hover {
+    text-shadow: 0 1px 0 rgb(247, 243, 243), 0 2px 0 rgb(8, 1, 1),
+                 0 3px 0 rgb(8, 6, 6), 0 4px 0 rgb(15, 3, 3),
+                 0 5px 0 rgb(10, 5, 5), 0 6px 0 #ccc,
+                 0 7px 0 rgb(252, 250, 250), 0 8px 0 #ccc,
+                 0 9px 0 rgb(17, 14, 14), 0 10px 0 rgb(3, 1, 1),
+                 0 11px 0 rgb(20, 11, 11), 0 12px 0 #ccc,
+                 0 20px 30px rgba(14, 8, 8, 0.5);
+}
+
+.lado_direito{
+    background-color: rgb(239, 247, 240);
+    height: auto;
+    padding: 10%;
+    
+}
+
+h2{
+    font-family: monospace;
+    text-transform: uppercase;
+}
